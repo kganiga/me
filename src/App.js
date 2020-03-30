@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import Background from './components/background-gradient'
 import './App.css';
-
+import Container from './components/container';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div class="background gradient"><ul class="bg-bubbles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div>
+        <Background/>
+        <Container />
       </header>
     </div>
   );
