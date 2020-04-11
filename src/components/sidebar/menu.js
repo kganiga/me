@@ -31,7 +31,7 @@ class Menu extends Component {
       <header className="header">
         <div className="profile">
           <div className="title">Khalil Ganiga</div>
-          <div className="subtitle subtitle-typed">Web Designer</div><span className="typed-cursor">|</span>
+          <div className="subtitle subtitle-typed"></div><span className="typed-cursor">|</span>
         </div><span />
         <div className="top-menu top-menu-onepage">
           <div className="menu-main-menu-container">

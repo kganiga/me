@@ -15,15 +15,15 @@ function About() {
                         <div className="col col-d-6 col-t-12 col-m-12 border-line-v">
                             <div className="text-box">
                                 <p><strong>Hello! I’m Khalil Ganiga.</strong>
-                                    <br /> AEM & ACM Developer from Banglore,India. I have rich experience in Adobe Experience Cloud, also I am good at Blogger,Google App Script.</p>
+                                    <br /> Adobe Certified Expert-ACM, full stack AEM & web developer from Banglore,India. I have rich experience in Adobe Experience Cloud, also I am good at React, Blogger,Google App Script.</p>
                             </div>
                         </div>
                         <div className="col col-d-6 col-t-12 col-m-12 border-line-v">
                             <div className="info-list">
                                 <ul>
-                                    <li><strong>Age:</strong> 29</li>
+
                                     <li><strong>Residence:</strong> India</li>
-                                    <li><strong>Freelance:</strong> Available</li>
+
                                     <li><strong>Address:</strong> Banglore,India</li>
 
                                 </ul>
