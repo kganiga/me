@@ -7,8 +7,8 @@ import Mdblogger from 'react-ionicons/lib/MdList'
 
 function About() {
     return (<>
-        <div class="card-inner animated active fadeInLeft" id="card-home">
-            <div class="card-wrap">
+        <div class="card-inner animated active fadeInLeft " id="card-home">
+            <div className="card-wrap">
                 <div className="content about">
                     <div className="title"><span className="first-word">About</span> Me</div>
                     <div className="row">

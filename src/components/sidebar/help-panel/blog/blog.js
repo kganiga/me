@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { Markup } from 'interweave';
-
-
+import './style.css'
 
 class Blog extends Component {
 
@@ -40,15 +38,20 @@ class Blog extends Component {
     render() {
 
         return (<>
-            <div class="card-inner animated active fadeInUp" id="card-home">
-                <div class="card-wrap"></div>
-                <div class="bgimg">
-                    <div class="topleft"></div>
-                    <div class="middle">
-                        <h1>COMING SOON</h1>
-                        <hr />
+            <div className="card-inner animated active fadeInUp" id="card-home">
+                <div className="card-wrap">
+                    <div className="bgimg">
+                        <div className="topleft">
+                            
+                        </div>
+                        <div className="middle">
+                            <h1>COMING SOON</h1>
+
+                            <div className="bottomleft">
+                                
+                            </div>
+                        </div>
                     </div>
-                    <div class="bottomleft"></div>
                 </div>
             </div>
         </>

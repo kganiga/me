@@ -107,13 +107,13 @@ class ContactMe extends Component {
 
 
         return (<>
-            <div class="card-inner animated active fadeInDown" id="card-home">
-                <div class="card-wrap">
+            <div className="card-inner animated active fadeInDown" id="card-home">
+                <div className="card-wrap">
                     <div className="content contacts">
                         <div className="title"><span className="first-word">Get</span> in touch</div>
-                        <div class="row">
-                            <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-                                <div class="info-list">
+                        <div className="row">
+                            <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
+                                <div className="info-list">
                                     <ul>
                                         <li> <strong>Address:</strong> Banglore,India</li>
                                         <li> <strong>Email:</strong> khalil.b.ganiga@outlook.com</li>
@@ -121,13 +121,13 @@ class ContactMe extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="clear"></div>
+                            <div className="clear"></div>
                         </div>
                     </div>
                     <div className="content contacts">
-                        <div class="title"><span class="first-word">Contact</span> Form</div>
-                        <div class="row">
-                            <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+                        <div className="title"><span className="first-word">Contact</span> Form</div>
+                        <div className="row">
+                            <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
                                 <div className="contact_form">
                                     <div role="form">
                                         <div className="screen-reader-response" />
@@ -151,7 +151,7 @@ class ContactMe extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="clear"></div>
+                            <div className="clear"></div>
                         </div>
                     </div>
                 </div>

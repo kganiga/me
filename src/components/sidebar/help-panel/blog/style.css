@@ -1,0 +1,48 @@
+
+.bgimg {
+  /* Background image */
+  background-image: url('https://scontent.fhyd5-1.fna.fbcdn.net/v/t1.0-9/62417213_2513164035381395_3299554920880930816_n.jpg?_nc_cat=110&_nc_sid=0be424&_nc_ohc=WYvX1BXDKF4AX--J9u5&_nc_ht=scontent.fhyd5-1.fna&oh=5542852cca95beba0556b809050fc2b5&oe=5EC226C6');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}

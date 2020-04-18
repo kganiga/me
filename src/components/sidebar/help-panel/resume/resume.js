@@ -6,7 +6,7 @@ class Resume extends Component {
         return (
             <>
                 <div class="card-inner animated active fadeInRight" id="card-home">
-                    <div class="card-wrap">
+                    <div className="card-wrap">
                         <div className="content resume">
                             <div className="title">
                                 <span className="first-letter">Resume</span>
