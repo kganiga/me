@@ -18,7 +18,7 @@ function Container() {
                     <div>
                         <Menu />
                         <Switch>
-                            <Route path="/me" component={About} exact />
+                            <Route path="/me" component={About} />
                             <Route path="/resume" component={Resume} exact />
                             <Route path="/contact" component={Contact} exact />
                             <Route path="/blog" component={Blog} exact />
