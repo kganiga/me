@@ -14,7 +14,7 @@ function Container() {
         <div className="page page_wrap">
             <div className="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
 
-                <BrowserRouter history={history} basename = {process.env.PUBLIC_URL}>
+                <BrowserRouter basename = {process.env.PUBLIC_URL}>
                     <div>
                         <Menu />
                         <Switch>
