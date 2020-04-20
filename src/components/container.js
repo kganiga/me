@@ -14,15 +14,15 @@ function Container() {
         <div className="page page_wrap">
             <div className="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
 
-                <BrowserRouter>
+                <BrowserRouter forceRefresh={true}>
                     <div>
                         <Menu />
                         <Switch>
                             <Route path="/me" component={About} />
-                            <Route path="/resume" component={Resume} exact />
-                            <Route path="/contact" component={Contact} exact />
-                            <Route path="/blog" component={Blog} exact />
-                            <Route path="/gallery" component={Gallery} exact />
+                            <Route path="/resume" component={Resume}  />
+                            <Route path="/contact" component={Contact}  />
+                            <Route path="/blog" component={Blog}  />
+                            <Route path="/gallery" component={Gallery}  />
                         </Switch>
                     </div>
                 </BrowserRouter>
