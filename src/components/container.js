@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './card/card'
 import Menu from './sidebar/menu';
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, history } from 'react-router-dom';
 
 import About from './sidebar/help-panel/about/about'
 import Resume from './sidebar/help-panel/resume/resume'
@@ -14,11 +14,11 @@ function Container() {
         <div className="page page_wrap">
             <div className="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
 
-                <BrowserRouter>
+                <BrowserRouter history={history} basename = {process.env.PUBLIC_URL}>
                     <div>
                         <Menu />
                         <Switch>
-                            <Route path="/me" component={About} />
+                            <Route path="/" component={About} />
                             <Route path="/resume" component={Resume}  />
                             <Route path="/contact" component={Contact}  />
                             <Route path="/blog" component={Blog}  />
