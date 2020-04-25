@@ -22,7 +22,7 @@ class Menu extends Component {
           <div className="menu-main-menu-container">
             <ul id="menu-main-menu" className="menu">
 
-              <li><NavLink to="/me" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></NavLink></li>
+              <li><NavLink to="/" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></NavLink></li>
               <li><NavLink to="/resume" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdList /></span>Resume</a></NavLink></li>
               <li><NavLink to="/gallery" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdCodeWorking /></span>Gallery</a></NavLink></li>
               <li><NavLink to="/blog" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdGlobe /></span>Blog</a></NavLink></li>
