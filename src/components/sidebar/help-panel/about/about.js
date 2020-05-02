@@ -10,7 +10,7 @@ function About() {
         <div class="card-inner animated active fadeInLeft " id="card-home">
             <div className="card-wrap">
                 <div className="content about">
-                    <div className="title"><span className="first-word">About</span> Me</div>
+                    <div className="title"><span className="first-word">A</span>bout Me</div>
                     <div className="row">
                         <div className="col col-d-6 col-t-12 col-m-12 border-line-v">
                             <div className="text-box">

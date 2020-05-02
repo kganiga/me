@@ -25,8 +25,9 @@ class Menu extends Component {
               <li><NavLink to="/" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></NavLink></li>
               <li><NavLink to="/resume" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdList /></span>Resume</a></NavLink></li>
               <li><NavLink to="/gallery" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdCodeWorking /></span>Gallery</a></NavLink></li>
-              <li><NavLink to="/blog" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdGlobe /></span>Blog</a></NavLink></li>
+              <li><NavLink to="/work" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdGlobe /></span>Work</a></NavLink></li>
               <li><NavLink to="/contact" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdAt /></span>Contact</a></NavLink></li>
+              
             </ul>
           </div>
         </div>

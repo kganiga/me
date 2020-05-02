@@ -2,13 +2,15 @@ import React from 'react'
 import Card from './card/card'
 import Menu from './sidebar/menu';
 
-import { HashRouter as BrowserRouter, Route, Switch,} from 'react-router-dom';
+import { HashRouter as BrowserRouter, Route, Switch, } from 'react-router-dom';
 
 import About from './sidebar/help-panel/about/about'
 import Resume from './sidebar/help-panel/resume/resume'
-import Blog from './sidebar/help-panel/blog/blog'
+import Work from './sidebar/help-panel/work/work'
 import Contact from './sidebar/help-panel/contact/contact'
-import Gallery from './sidebar/help-panel/work/work'
+import Gallery from './sidebar/help-panel/gallery/gallery'
+import NumbersToWords from './num-to-words/num-to-words';
+import ReadOMeter from './read-o-meter/readoMeter';
 function Container() {
     return (
         <div className="page page_wrap">
@@ -19,10 +21,14 @@ function Container() {
                         <Menu />
                         <Switch>
                             <Route path="/" component={About} exact />
-                            <Route path="/resume" component={Resume} exact/>
-                            <Route path="/contact" component={Contact}  />
-                            <Route path="/blog" component={Blog} exact />
+                            <Route path="/resume" component={Resume} exact />
+                            <Route path="/contact" component={Contact} />
+                            <Route path="/Work" component={Work} exact />
                             <Route path="/gallery" component={Gallery} exact />
+                            <Route path="/number-to-words" component={NumbersToWords} exact />
+                            <Route path="/read-o-meter" component={ReadOMeter} exact />
+
+
                         </Switch>
                     </div>
                 </BrowserRouter>
