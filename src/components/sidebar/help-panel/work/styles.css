@@ -1,11 +1,20 @@
-.box-item {    
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width:150%;
-    height: 150%;
+.box-item {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
+.box-item .name {
+  text-align: left;
+  margin: 0 0 4px 4px;
+  text-transform: uppercase !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .shadowDepth1 {
+    width: 100%;
+    display: inline-block;
   }
-.box-item .name{
-    text-align: left;
-    margin: 0 0 4px 4px;
-    text-transform: uppercase !important;
 }

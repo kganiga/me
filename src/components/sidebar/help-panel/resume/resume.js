@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Briefcase from 'react-ionicons/lib/MdBriefcase'
+
 
 class Resume extends Component {
     render() {

@@ -1,0 +1,10 @@
+@media (min-width: 360px) {
+    .css-6d2p78{
+        margin-top: 160px;
+    }
+}
+@media (min-width: 640px) {
+    .css-6d2p78{
+        margin-top: 0;
+    }
+}

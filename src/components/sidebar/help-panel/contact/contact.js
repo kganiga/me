@@ -1,84 +1,42 @@
 import React, { Component } from "react";
-import axios from 'axios';
 
-const GOOGLE_FORM_NAME = 'entry.1829150506'
-const GOOGLE_FORM_EMAIL_ID = 'entry.1297812451'
-const GOOGLE_FORM_MESSAGE = 'entry.1087698458'
-const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/'
-const GOOGLE_FORM_ACTION = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSc34JAyET9Gtiz37H4CkcQKynJ08hOBJF_jkmyYd_sor82i3w/formResponse'
+import * as emailjs from 'emailjs-com'
+
 
 
 class ContactMe extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            message: '',
-            email: '',
-            name: '',
-            showForm: false,
-            sendingMessage: false,
-            messageSent: false,
-            messageError: false
+    state = {
+        name: '',
+        email: '',       
+        message: '',
+    }
+    handleSubmit(e) {
+        e.preventDefault()
+        const { name, email, message } = this.state
+        let templateParams = {
+            from_name:name,
+            from_email: email,
+            to_name: 'Khalil',            
+            message_html: message,
         }
+        emailjs.send(
+            'gmail',
+            'template_kvcn8ers',
+            templateParams,
+            'user_4nD3w2AztPMmCSXA0ALBa'
+        )
+        this.resetForm()
     }
-
-    handleChange = (event) => {
-        this.setState({ [event.target.name]: event.target.value })
-    }
-
-    handleSubmit = (event) => {
-        event.preventDefault()
+    resetForm() {
         this.setState({
-            sendingMessage: true
+            name: '',            
+            email: '',
+            message: '',
         })
-        this.sendMessage()
     }
-
-    handleFormToggle = () => {
-        this.setState(
-            (prevState) => {
-                const { showForm } = prevState
-                return {
-                    showForm: !showForm
-                }
-            }
-        )
+    handleChange = (param, e) => {
+        this.setState({ [param]: e.target.value })
     }
-
-    handleReturnButton = () => {
-        this.setState(
-            {
-                showForm: false,
-                messageSent: false,
-                messageError: false
-            }
-        )
-    }
-
-    sendMessage = () => {
-        const formData = new FormData()
-        formData.append(GOOGLE_FORM_NAME, this.state.name)
-        formData.append(GOOGLE_FORM_EMAIL_ID, this.state.email)
-        formData.append(GOOGLE_FORM_MESSAGE, this.state.message)
-
-        axios.post(CORS_PROXY + GOOGLE_FORM_ACTION, formData)
-            .then(() => {
-                this.setState({
-                    messageSent: true,
-                    sendingMessage: false,
-                    message: '',
-                    email: ''
-                })
-            }).catch(() => {
-                this.setState({
-                    messageError: true,
-                    sendingMessage: false
-                })
-            })
-    }
-
-    returnButton = () => <button id='return-button' className='btn btn-default btn-xs' onClick={this.handleReturnButton}>Return</button>
-
 
     render() {
         if (this.state.sendingMessage) {
@@ -131,22 +89,23 @@ class ContactMe extends Component {
                                 <div className="contact_form">
                                     <div role="form">
                                         <div className="screen-reader-response" />
-                                        <form onSubmit={this.handleSubmit} >
+                                        <form onSubmit={this.handleSubmit.bind(this)} >
                                             <div className="row">
                                                 <div className="col col-d-6 col-t-6 col-m-12">
-                                                    <div> <span><input type="text" name="your-name" size={40} placeholder="Your Name" /></span></div>
+                                                    <div> <span><input type="text" name="name" value={this.state.name} size={40} placeholder="Your Name" onChange={this.handleChange.bind(this, 'name')} /></span></div>
                                                 </div>
                                                 <div className="col col-d-6 col-t-6 col-m-12">
-                                                    <div > <span ><input type="email" name="your-email" size={40} placeholder="Email Address" /></span></div>
+                                                    <div > <span ><input type="email" name="email" value={this.state.email} size={40} placeholder="Email Address" onChange={this.handleChange.bind(this, 'email')}/></span></div>
                                                 </div>
                                                 <div className="col col-d-12 col-t-12 col-m-12">
-                                                    <div > <span><textarea name="your-message" cols={40} rows={10} placeholder="Your Message" defaultValue={""} /></span></div>
+                                                    <div > <span><textarea value={this.state.message} name="message" cols={40} rows={10} placeholder="Your Message" defaultValue={""} onChange={this.handleChange.bind(this, 'message') }/></span></div>
                                                 </div>
                                             </div>
                                             <div className="align-left">
                                                 <button type="submit" className="button"><span className="text">Send Message</span><span className="arrow" /></button>
                                             </div>
-
+                                            <div className='success-message'></div>
+                                            <div className='error-message'></div>
                                         </form>
                                     </div>
                                 </div>

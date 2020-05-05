@@ -5,13 +5,21 @@ import MdGlobe from 'react-ionicons/lib/MdGlobe'
 import MdCodeWorking from 'react-ionicons/lib/MdImages'
 import MdAt from 'react-ionicons/lib/MdAt'
 
-import { NavLink } from 'react-router-dom';
-
-const cName = 'menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-17 current_page_item current-menu-item'
-
 class Menu extends Component {
- 
+
+  constructor(props) {
+    super(props);
+    this.state = { addClass: false }
+  }
+  toggle() {
+    this.setState({ addClass: !this.state.addClass });
+  }
+
   render() {
+    let activeMenu = ["menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-30 current_page_item "];
+    if (this.state.addClass) {
+      activeMenu.push('current-menu-item');
+    }
     return (<>
       <header className="header">
         <div className="profile">
@@ -21,13 +29,12 @@ class Menu extends Component {
         <div className="top-menu top-menu-onepage">
           <div className="menu-main-menu-container">
             <ul id="menu-main-menu" className="menu">
+              <li className={activeMenu.join(' ') +''} onClick={this.toggle.bind(this)}><a href="/" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></li>
+              <li><a href="#resume" className={activeMenu.join(' ')} onClick={this.toggle.bind(this)}><span className='icon'><MdList /></span>Resume</a></li>
+              <li><a href="#gallery" className={activeMenu.join(' ')} onClick={this.toggle.bind(this)}><span className='icon'><MdCodeWorking /></span>Gallery</a></li>
+              <li><a href="#work" className={activeMenu.join(' ')} onClick={this.toggle.bind(this)}><span className='icon'><MdGlobe /></span>Work</a></li>
+              <li><a href="#contact" className={activeMenu.join(' ')} onClick={this.toggle.bind(this)}><span className='icon'><MdAt /></span>Contact</a></li>
 
-              <li><NavLink to="/" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></NavLink></li>
-              <li><NavLink to="/resume" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdList /></span>Resume</a></NavLink></li>
-              <li><NavLink to="/gallery" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdCodeWorking /></span>Gallery</a></NavLink></li>
-              <li><NavLink to="/work" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdGlobe /></span>Work</a></NavLink></li>
-              <li><NavLink to="/contact" activeClassName={cName}><a href="" className="one-page-menu-item"><span className='icon'><MdAt /></span>Contact</a></NavLink></li>
-              
             </ul>
           </div>
         </div>
