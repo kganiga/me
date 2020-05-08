@@ -29,7 +29,7 @@ class Menu extends Component {
         <div className="top-menu top-menu-onepage">
           <div className="menu-main-menu-container">
             <ul id="menu-main-menu" className="menu">
-              <li className={activeMenu.join(' ') +''} onClick={this.toggle.bind(this)}><a href="/" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></li>
+              <li className={activeMenu.join(' ') +''} onClick={this.toggle.bind(this)}><a href="/me" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></li>
               <li><a href="#resume" className={activeMenu.join(' ')} onClick={this.toggle.bind(this)}><span className='icon'><MdList /></span>Resume</a></li>
               <li><a href="#gallery" className={activeMenu.join(' ')} onClick={this.toggle.bind(this)}><span className='icon'><MdCodeWorking /></span>Gallery</a></li>
               <li><a href="#work" className={activeMenu.join(' ')} onClick={this.toggle.bind(this)}><span className='icon'><MdGlobe /></span>Work</a></li>

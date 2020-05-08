@@ -11,6 +11,7 @@ import Contact from './sidebar/help-panel/contact/contact'
 import Gallery from './sidebar/help-panel/gallery/gallery'
 import NumbersToWords from './num-to-words/num-to-words';
 import ReadOMeter from './read-o-meter/readoMeter';
+import MemoryGame from './memory-game/memory-game'
 function Container() {
     return (
         <div className="page page_wrap">
@@ -27,8 +28,7 @@ function Container() {
                             <Route path="/gallery" component={Gallery} exact />
                             <Route path="/number-to-words" component={NumbersToWords} exact />
                             <Route path="/read-o-meter" component={ReadOMeter} exact />
-
-
+                            <Route path="/memory-game" component={MemoryGame} exact />
                         </Switch>
                     </div>
                 </BrowserRouter>

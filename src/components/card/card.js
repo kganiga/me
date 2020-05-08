@@ -32,7 +32,7 @@ function Card() {
           </div>
         </div>
         <div className="lnks">
-          <a href="#" className="lnk"> <span className="text">Download CV</span> </a>
+          <a href={require('../../assets/data/Khalil_Adobe_AEM_ACM.docx')} className="lnk"> <span className="text">Download CV</span> </a>
           <a href="mailto:khalil.b.ganiga@outlook.com" className="lnk"><span className="text">Contact Me</span> </a>
         </div>
       </div>

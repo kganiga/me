@@ -1,0 +1,81 @@
+
+
+.app__input,
+.app__end {
+    text-align: center;
+}
+
+.app__end {
+    margin-top: 40px;
+}
+
+.app__gen-number {
+    text-align: center;
+}
+
+.app__divider {
+    color: rgba(91, 114, 127, 1);
+    margin: 20px 0;
+}
+
+.app__number {
+    font-size: 36px;
+    color: rgba(244, 89, 87, 1);
+}
+
+.app__info:before,
+.app__info:after {
+    content: ' ';
+    display: table;
+}
+
+.app__info:after {
+    clear: both;
+}
+
+.app__info {
+    margin: 20px 0;
+}
+
+.app__level {
+    float: left;
+    color: rgba(244, 192, 37, 1);
+}
+
+.app__wrong {
+    float: right;
+    color: rgba(244, 89, 87, 1);
+}
+
+.restartBtn {
+    color: #78cc6d;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #78cc6d;
+    border-radius: 0.6em;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    
+
+}
+
+restartBtn:hover,
+:focus {
+    color: #333;
+    outline: 0;
+}
+
+.game-info {
+    text-align: center;
+    color: #78cc6d;
+    font-family: 'Fira Mono', monospace;
+    font-size: 16px;
+
+}
+.game-input{
+    margin-top: 10px;
+    margin-bottom: -30px;
+}

@@ -68,7 +68,7 @@ class ContactMe extends Component {
             <div className="card-inner animated active fadeInDown" id="card-home">
                 <div className="card-wrap">
                     <div className="content contacts">
-                        <div className="title"><span className="first-word">Get</span> in touch</div>
+                        <div className="title"><span className="first-word">G</span>et in touch</div>
                         <div className="row">
                             <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
                                 <div className="info-list">
@@ -83,7 +83,7 @@ class ContactMe extends Component {
                         </div>
                     </div>
                     <div className="content contacts">
-                        <div className="title"><span className="first-word">Contact</span> Form</div>
+                        <div className="title"><span className="first-word">C</span>ontact Form</div>
                         <div className="row">
                             <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
                                 <div className="contact_form">

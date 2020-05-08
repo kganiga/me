@@ -14,6 +14,16 @@ class Work extends Component {
                     <div className="content works">
                         <div className="title "><span class="first-word">F</span>un Projects</div>
                         <div className="wrapper">
+                        <div className="card radius shadowDepth1">
+                                <div className="card__image border-tlr-radius">
+                                    <img src={require('../../../../assets/images/memoryGame.jpg')} alt="heh" />
+                                </div>
+                                <div className="card__content card__padding">
+                                    <article className="card__article">
+                                        <h2><a href="#memory-game">Memory Game</a></h2>
+                                    </article>
+                                </div>
+                            </div>
                             <div className="card radius shadowDepth1">
                                 <div className="card__image border-tlr-radius">
                                     <img src={require('../../../../assets/images/numberToStr.jpg')} alt="heh" />
