@@ -2412,9 +2412,7 @@ body {
 }
 
 @media (max-width:680px) {
-	.row .col.col-m-12 {
-		width: 99.996%
-	}
+
 
 	.row .col.col-m-11 {
 		width: 91.663%

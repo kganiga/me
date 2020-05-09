@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 import * as emailjs from 'emailjs-com'
 
-
-
 class ContactMe extends Component {
     state = {
         name: '',
@@ -19,6 +17,7 @@ class ContactMe extends Component {
             to_name: 'Khalil',
             message_html: message,
         }
+       
         emailjs.send(
             'gmail',
             'template_kvcn8ers',
@@ -70,7 +69,7 @@ class ContactMe extends Component {
                                 <div className="contact_form">
                                     <div role="form">
                                         <div className="screen-reader-response" />
-                                        <form onSubmit={this.handleSubmit.bind(this)} >
+                                        <form onSubmit={this.handleSubmit.bind(this)} id="contact_form">
                                             <div className="row">
                                                 <div className="col col-d-6 col-t-6 col-m-12">
                                                     <div> <span><input type="text" name="name" value={this.state.name} size={40} placeholder="Your Name" onChange={this.handleChange.bind(this, 'name')} /></span></div>
