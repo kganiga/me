@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.bdbea039.chunk.css",
-    "main.js": "/me/static/js/main.797c06dd.chunk.js",
-    "main.js.map": "/me/static/js/main.797c06dd.chunk.js.map",
+    "main.css": "/me/static/css/main.90499fc1.chunk.css",
+    "main.js": "/me/static/js/main.a9383017.chunk.js",
+    "main.js.map": "/me/static/js/main.a9383017.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.66f66336.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.66f66336.js.map",
-    "static/js/2.a68a95ec.chunk.js": "/me/static/js/2.a68a95ec.chunk.js",
-    "static/js/2.a68a95ec.chunk.js.map": "/me/static/js/2.a68a95ec.chunk.js.map",
+    "static/js/2.782de9ae.chunk.js": "/me/static/js/2.782de9ae.chunk.js",
+    "static/js/2.782de9ae.chunk.js.map": "/me/static/js/2.782de9ae.chunk.js.map",
     "index.html": "/me/index.html",
-    "precache-manifest.19bb703a82d1a91d7704b3d5bc406e10.js": "/me/precache-manifest.19bb703a82d1a91d7704b3d5bc406e10.js",
+    "precache-manifest.4245e585aa1b0cb5c8ece6bbaabbb896.js": "/me/precache-manifest.4245e585aa1b0cb5c8ece6bbaabbb896.js",
     "service-worker.js": "/me/service-worker.js",
-    "static/css/main.bdbea039.chunk.css.map": "/me/static/css/main.bdbea039.chunk.css.map",
-    "static/js/2.a68a95ec.chunk.js.LICENSE.txt": "/me/static/js/2.a68a95ec.chunk.js.LICENSE.txt",
-    "static/media/Khalil_Adobe_AEM_ACM.docx": "/me/static/media/Khalil_Adobe_AEM_ACM.6a571bc0.docx",
+    "static/css/main.90499fc1.chunk.css.map": "/me/static/css/main.90499fc1.chunk.css.map",
+    "static/js/2.782de9ae.chunk.js.LICENSE.txt": "/me/static/js/2.782de9ae.chunk.js.LICENSE.txt",
+    "static/media/EY.png": "/me/static/media/EY.58e6329e.png",
+    "static/media/Khalil_Ganiga_CV.pdf": "/me/static/media/Khalil_Ganiga_CV.7745d3fa.pdf",
+    "static/media/acm.jpeg": "/me/static/media/acm.252b8342.jpeg",
+    "static/media/aem.png": "/me/static/media/aem.6e12378f.png",
+    "static/media/certfication-img.png": "/me/static/media/certfication-img.d875a0cd.png",
     "static/media/memoryGame.jpg": "/me/static/media/memoryGame.7a460ad3.jpg",
     "static/media/numberToStr.jpg": "/me/static/media/numberToStr.d8799f32.jpg",
-    "static/media/profile.jpg": "/me/static/media/profile.b033d82a.jpg"
+    "static/media/profile.jpg": "/me/static/media/profile.b033d82a.jpg",
+    "static/media/versionControl.jpg": "/me/static/media/versionControl.d3f11ec3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.66f66336.js",
-    "static/js/2.a68a95ec.chunk.js",
-    "static/css/main.bdbea039.chunk.css",
-    "static/js/main.797c06dd.chunk.js"
+    "static/js/2.782de9ae.chunk.js",
+    "static/css/main.90499fc1.chunk.css",
+    "static/js/main.a9383017.chunk.js"
   ]
 }
