@@ -4,32 +4,27 @@ import Mdmusicnote from 'react-ionicons/lib/MdMusicalNote'
 import Mdbook from 'react-ionicons/lib/MdBook'
 import MdCamera from 'react-ionicons/lib/MdCamera'
 import Mdblogger from 'react-ionicons/lib/MdList'
+import './style.css'
 
 function About() {
     return (<>
-        <div class="card-inner animated active fadeInLeft " id="card-home">
+        <div className="card-inner animated active fadeInLeft " id="card-home">
             <div className="card-wrap">
                 <div className="content about">
                     <div className="title"><span className="first-word">A</span>bout Me</div>
                     <div className="row">
-                        <div className="col col-d-6 col-t-12 col-m-12 border-line-v">
+                        <div className="col col-d-6 col-t-12 col-m-12 border-line-v aboutMe">
                             <div className="text-box">
-                                <p><strong>Hello! I’m Khalil Ganiga.</strong>
-                                    <br /> Adobe Certified Expert-ACM, full stack AEM & web developer from Banglore,India. I have rich experience in Adobe Experience Cloud, also I am good at React, Blogger,Google App Script.</p>
+                                <p>Hello! I’m <strong> Khalil Ganiga.</strong>
+                                    <br /> I am dedicated AEM and certified ACM classic developer.</p>
+                                <br />
+                                <p>To be an Adobe Experience Manager developer is to be a full stack engineer. I am a Java Engineer with a deep understanding of the AEM APIs and the underlying frameworks that compose AEM.</p>
+                                <br />
+                                <p> Strong web developer background allows me to focus on providing optimized and uninhibited user experiences. I create fast, responsive, SEO friendly websites using HTML5, CSS3, JavaScript, and the latest tools in client-side development.</p>
                             </div>
                         </div>
-                        <div className="col col-d-6 col-t-12 col-m-12 border-line-v">
-                            <div className="info-list">
-                                <ul>
+                        <div className="col col-d-6 col-t-12 col-m-12 border-line-v addSection"><div className="info-list"><ul><li> <strong> <span> Residence: </span> </strong> <span> India </span></li><li> <strong> <span> Address: </span> </strong> <span> Banglore, India </span></li></ul></div></div>
 
-                                    <li><strong>Residence:</strong> India</li>
-
-                                    <li><strong>Address:</strong> Banglore,India</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="clear" />
                     </div>
                 </div>
                 <div className="content fuct">

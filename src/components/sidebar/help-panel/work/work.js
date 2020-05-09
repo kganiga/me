@@ -12,7 +12,7 @@ class Work extends Component {
             <div className="card-inner animated active fadeInLeft" id="card-home">
                 <div className="card-wrap">
                     <div className="content works">
-                        <div className="title "><span class="first-word">F</span>un Projects</div>
+                        <div className="title "><span className="first-word">F</span>un Projects</div>
                         <div className="wrapper">
                         <div className="card radius shadowDepth1">
                                 <div className="card__image border-tlr-radius">

@@ -8,7 +8,8 @@ import {
   faTwitter,
   faStackOverflow,
   faLinkedinIn,
-  faInstagram
+  faInstagram,
+  faChrome
 } from "@fortawesome/free-brands-svg-icons";
 
 function Card() {
@@ -23,6 +24,7 @@ function Card() {
           </div>
           {/*<span className="typed-cursor">|</span>*/}
           <div className="social">
+          <a target='_blank' rel="noopener noreferrer" href="https://kganiga.blogspot.com/" ><FontAwesomeIcon icon={faChrome} size="1x" /></a>
             <a target='_blank' rel="noopener noreferrer" href="https://facebook.com/khalilbasha.g" ><FontAwesomeIcon icon={faFacebook} size="1x" /></a>
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Im_Khalil"> <FontAwesomeIcon icon={faTwitter} size="1x" /> </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/khalilbasha.g/"> <FontAwesomeIcon icon={faInstagram} size="1x" /> </a>
@@ -32,7 +34,7 @@ function Card() {
           </div>
         </div>
         <div className="lnks">
-          <a href={require('../../assets/data/Khalil_Adobe_AEM_ACM.docx')} className="lnk"> <span className="text">Download CV</span> </a>
+          <a href={require('../../assets/data/Khalil_Ganiga_CV.pdf')} className="lnk"> <span className="text">Download CV</span> </a>
           <a href="mailto:khalil.b.ganiga@outlook.com" className="lnk"><span className="text">Contact Me</span> </a>
         </div>
       </div>

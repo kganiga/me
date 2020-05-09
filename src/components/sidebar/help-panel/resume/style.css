@@ -1,0 +1,105 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+}
+
+.card {
+    background-color: #fff;
+    -webkit-border-radius: 1.5px;
+    -moz-border-radius: 1.5px;
+    border-radius: 1.5px;
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(150, 150, 150, 1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(150, 150, 150, 1);
+    box-shadow: 1px 1px 10px 0px rgba(150, 150, 150, 1);
+    margin: 30px 0 30px 0;
+}
+
+/* If you float an image, you can use overflow to clear it in the sibling container*/
+.card img {
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    margin: 1em;
+    padding: 0 0.5em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 17px;
+    color: #323232;
+    font-weight: 500
+}
+
+.info p {
+    font-size: 0.75em;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 636px) {
+    .info {
+        width: 60%;
+    }
+
+    .info p {
+        font-size: 0.75em;
+        font-weight: normal;
+        overflow: auto;
+    }
+}
+
+.techIcon img {
+    border-radius: 500px;
+    width:100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #3333;    
+
+}
+
+.techItem{
+    position: relative;
+}
+.btn btn--block card__btn{
+    color:#323232;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+}
+.info h2 a{
+    margin: 0;
+    font-size: 17px;
+    color: #78cc6d;
+    font-weight: 500
+}
+
+h2 a :hover{
+   
+    color: #78cc6d;
+    
+}

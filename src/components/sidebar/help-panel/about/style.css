@@ -1,0 +1,7 @@
+.aboutMe{
+    width:auto !important;
+}
+.addSection .info-list ul li{
+    width:100%;
+    display: inline-block !important;
+}

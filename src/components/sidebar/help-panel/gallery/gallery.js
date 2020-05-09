@@ -21,10 +21,10 @@ function ImageGallery() {
     };
 
     return (
-        <div class="card-inner animated active fadeInLeft" id="card-home">
-            <div class="card-wrap">
-                <div class="content works">
-                    <div class="title "><span class="first-word">M</span>y Clicks</div>
+        <div className="card-inner animated active fadeInRight" id="card-home">
+            <div className="card-wrap">
+                <div className="content works">
+                    <div className="title "><span className="first-word">M</span>y Clicks</div>
                     <Gallery photos={photos} onClick={openLightbox} />
                     <ModalGateway>
                         {viewerIsOpen ? (

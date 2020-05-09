@@ -7,16 +7,16 @@ import * as emailjs from 'emailjs-com'
 class ContactMe extends Component {
     state = {
         name: '',
-        email: '',       
+        email: '',
         message: '',
     }
     handleSubmit(e) {
         e.preventDefault()
         const { name, email, message } = this.state
         let templateParams = {
-            from_name:name,
+            from_name: name,
             from_email: email,
-            to_name: 'Khalil',            
+            to_name: 'Khalil',
             message_html: message,
         }
         emailjs.send(
@@ -24,12 +24,17 @@ class ContactMe extends Component {
             'template_kvcn8ers',
             templateParams,
             'user_4nD3w2AztPMmCSXA0ALBa'
-        )
+        ).then((result) => {
+           alert("Message Sent..!")
+        }, (error) => {
+           alert("Sorry, something went wrong..!. Please try again..!")
+        });
+
         this.resetForm()
     }
     resetForm() {
         this.setState({
-            name: '',            
+            name: '',
             email: '',
             message: '',
         })
@@ -39,31 +44,7 @@ class ContactMe extends Component {
     }
 
     render() {
-        if (this.state.sendingMessage) {
-            return (
-                <div>Sending...</div>
-            )
-        }
-
-        if (this.state.messageSent) {
-            return (
-                <React.Fragment>
-                    <div className='success-message'>Sent! I will respond asap.</div>
-                    {this.returnButton()}
-                </React.Fragment>
-            )
-        }
-
-        if (this.state.messageError) {
-            return (
-                <React.Fragment>
-                    <div className='error-message'>Sorry, something went wrong..!. Please try again..!</div>
-                    {this.returnButton()}
-                </React.Fragment>
-            )
-        }
-
-
+        
         return (<>
             <div className="card-inner animated active fadeInDown" id="card-home">
                 <div className="card-wrap">
@@ -95,17 +76,15 @@ class ContactMe extends Component {
                                                     <div> <span><input type="text" name="name" value={this.state.name} size={40} placeholder="Your Name" onChange={this.handleChange.bind(this, 'name')} /></span></div>
                                                 </div>
                                                 <div className="col col-d-6 col-t-6 col-m-12">
-                                                    <div > <span ><input type="email" name="email" value={this.state.email} size={40} placeholder="Email Address" onChange={this.handleChange.bind(this, 'email')}/></span></div>
+                                                    <div > <span ><input type="email" name="email" value={this.state.email} size={40} placeholder="Email Address" onChange={this.handleChange.bind(this, 'email')} /></span></div>
                                                 </div>
                                                 <div className="col col-d-12 col-t-12 col-m-12">
-                                                    <div > <span><textarea value={this.state.message} name="message" cols={40} rows={10} placeholder="Your Message" defaultValue={""} onChange={this.handleChange.bind(this, 'message') }/></span></div>
+                                                    <div > <span><textarea value={this.state.message} name="message" cols={40} rows={10} placeholder="Your Message" onChange={this.handleChange.bind(this, 'message')} /></span></div>
                                                 </div>
                                             </div>
                                             <div className="align-left">
                                                 <button type="submit" className="button"><span className="text">Send Message</span><span className="arrow" /></button>
                                             </div>
-                                            <div className='success-message'></div>
-                                            <div className='error-message'></div>
                                         </form>
                                     </div>
                                 </div>
@@ -117,8 +96,8 @@ class ContactMe extends Component {
             </div>
 
 
-        </>
-        );
+        </>);
+
     }
 }
 
