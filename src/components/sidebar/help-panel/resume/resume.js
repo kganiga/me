@@ -150,9 +150,40 @@ class Resume extends Component {
                                 <span className="first-letter">Certifications</span>
                             </div>
                             <section className="card">
+                                <img src={require('../../../../assets/images/aem-sites-developer.png')} alt="aem certification" />
+                                <div className="info">
+                                    <h2><a href="https://www.youracclaim.com/badges/76285d52-075c-4a4c-ac2d-9c4e5b97ed46/public_url">Adobe Certified Expert - Adobe Experience Manager Sites Developer</a></h2><h2>
+                                        <p> Issued By : <a href="https://www.youracclaim.com/org/adobe">Adobe</a></p>
+                                        <br />
+                                        <p> Issued Jun 2020, Expires Jun 2022 </p>
+                                    </h2>
+                                    <button className="btn btn--block card__btn"><a href="https://www.youracclaim.com/badges/76285d52-075c-4a4c-ac2d-9c4e5b97ed46/public_url">See credential</a></button>
+                                </div>
+                            </section>
+                            <section className="card">
+                                <img src={require('../../../../assets/images/aep.png')} alt="aep certification" />
+                                <div className="info">
+                                    <h2><a href="https://www.youracclaim.com/badges/76285d52-075c-4a4c-ac2d-9c4e5b97ed46/public_url">Adobe Qualified – Adobe Experience Platform</a></h2><h2>
+                                        <p> Issued By : <a href="https://www.youracclaim.com/org/adobe">Adobe</a></p>
+                                    </h2>
+                                    <button className="btn btn--block card__btn"><a href="https://www.youracclaim.com/badges/76285d52-075c-4a4c-ac2d-9c4e5b97ed46/public_url">See credential</a></button>
+                                </div>
+                            </section>
+                            <section className="card">
+                                <img src={require('../../../../assets/images/ey-badge.png')} alt="ey badge" />
+                                <div className="info">
+                                    <h2><a href="https://www.youracclaim.com/badges/d498492c-83c5-4305-81a9-1b2ced653169/linked_in_profile">EY Analytics - Data visualization - Bronze</a></h2><h2>
+                                        <p> Issued By: <a href="https://www.youracclaim.com/org/ey">EY</a> </p>
+                                    </h2>
+                                    <button className="btn btn--block card__btn"><a href="https://www.youracclaim.com/badges/d498492c-83c5-4305-81a9-1b2ced653169/linked_in_profile">See credential</a></button>
+                                </div>
+                            </section>
+                            <section className="card">
                                 <img src={require('../../../../assets/images/certfication-img.png')} alt="acm certification" />
                                 <div className="info">
                                     <h2><a href="https://www.youracclaim.com/badges/16b987fd-e045-4ea8-86d3-e019daaaf48b/public_url">Adobe Certified Expert - Adobe Campaign Classic Developer</a></h2><h2>
+                                        <p> Issued By : <a href="https://www.youracclaim.com/org/adobe">Adobe</a></p>
+                                        <br />
                                         <p> Issued Mar 2020, Expires Mar 2022 </p>
                                     </h2>
                                     <button className="btn btn--block card__btn"><a href="https://www.youracclaim.com/badges/16b987fd-e045-4ea8-86d3-e019daaaf48b/public_url">See credential</a></button>
@@ -165,7 +196,7 @@ class Resume extends Component {
                                 <span className="first-letter">Honors & Awards</span>
                             </div>
                             <section className="card">
-                            <img src={require('../../../../assets/images/EY.png')} alt="" />
+                                <img src={require('../../../../assets/images/EY.png')} alt="" />
                                 <div className="info">
                                     <h2>SPOT Award </h2><h2>
                                         <p> 2020, EY </p>
@@ -174,18 +205,18 @@ class Resume extends Component {
                                 </div>
                             </section>
                             <section className="card">
-                            <img src={require('../../../../assets/images/accenture.png')} alt="" />
+                                <img src={require('../../../../assets/images/accenture.png')} alt="" />
                                 <div className="info">
                                     <h2>Accenture Celebrates Excellence (ACE) </h2><h2>
                                         <p> 2015, Accenture </p>
-                                        <p>Awarded prestigious Accenture Celebrates Excellence (ACE) award to Delivery Excellence in the Individual category. 
+                                        <p>Awarded prestigious Accenture Celebrates Excellence (ACE) award to Delivery Excellence in the Individual category.
                                         </p>
                                     </h2>
 
                                 </div>
                             </section>
                             <section className="card">
-                            <img src={require('../../../../assets/images/accenture.png')} alt="" />
+                                <img src={require('../../../../assets/images/accenture.png')} alt="" />
                                 <div className="info">
                                     <h2>Star of the Month </h2><h2>
                                         <p> 2015, Accenture </p>

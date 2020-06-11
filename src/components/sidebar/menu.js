@@ -38,7 +38,7 @@ class Menu extends Component {
               <li onClick={this.getBtnId} id="0" data-id="menu-item-0" className={this.state.panelIndex === 0 ? cName: ''}><a href="/me" className="one-page-menu-item"><span className='icon'><MdPerson /></span>About</a></li>
               <li onClick={this.getBtnId} id="1" data-id="menu-item-1" className={this.state.panelIndex === 1 ? cName: ''}><a href="#resume" className="one-page-menu-item"><span className='icon'><MdList /></span>Resume</a></li>
               <li onClick={this.getBtnId} id="2" data-id="menu-item-2" className={this.state.panelIndex === 2 ? cName: ''}><a href="#work" className="one-page-menu-item"><span className='icon'><MdGlobe /></span>Work</a></li>
-              <li onClick={this.getBtnId} id="3" data-id="menu-item-3" className={this.state.panelIndex === 3 ? cName: ''}><a href="#gallery" className="one-page-menu-item"><span className='icon'><MdCodeWorking /></span>Gallery</a></li>
+              {/*<li onClick={this.getBtnId} id="3" data-id="menu-item-3" className={this.state.panelIndex === 3 ? cName: ''}><a href="#gallery" className="one-page-menu-item"><span className='icon'><MdCodeWorking /></span>Gallery</a></li>*/}
               <li onClick={this.getBtnId} id="4" data-id="menu-item-4" className={this.state.panelIndex === 4 ? cName: ''}><a href="#contact" className="one-page-menu-item"><span className='icon'><MdAt /></span>Contact</a></li>
             </ul>
           </div>
