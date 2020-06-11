@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d43acaf9034a07968b14718132f6a44",
+    "revision": "b4176e1a1032e9037a3a6a0a644c2a3f",
     "url": "/me/index.html"
   },
   {
-    "revision": "d813dc5dc8f8e09127ea",
+    "revision": "e617d768424b3ea27ae4",
     "url": "/me/static/css/main.0b328745.chunk.css"
   },
   {
-    "revision": "b44b757be37ce0f48425",
-    "url": "/me/static/js/2.782de9ae.chunk.js"
+    "revision": "0e6fbf4def56e354b9f8",
+    "url": "/me/static/js/2.90aa7ad1.chunk.js"
   },
   {
     "revision": "6ef718eeb39c03c0fcdab1a60b0c6b00",
-    "url": "/me/static/js/2.782de9ae.chunk.js.LICENSE.txt"
+    "url": "/me/static/js/2.90aa7ad1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d813dc5dc8f8e09127ea",
-    "url": "/me/static/js/main.f3760ee2.chunk.js"
+    "revision": "e617d768424b3ea27ae4",
+    "url": "/me/static/js/main.ce2984c3.chunk.js"
   },
   {
     "revision": "83cc34b80aa888a9a355",
@@ -28,20 +28,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/me/static/media/EY.58e6329e.png"
   },
   {
-    "revision": "d8ea581c6a4a0ae113ca5f95f858d0e9",
-    "url": "/me/static/media/Khalil_Ganiga_2020.d8ea581c.pdf"
+    "revision": "6bf0a4594680f062925c937855420567",
+    "url": "/me/static/media/Khalil_Ganiga_2020.6bf0a459.pdf"
   },
   {
     "revision": "252b834280db80bfa4e4cf44bb4f8964",
     "url": "/me/static/media/acm.252b8342.jpeg"
   },
   {
+    "revision": "024fb2afc642e9c9c59a06ebf206d276",
+    "url": "/me/static/media/aem-sites-developer.024fb2af.png"
+  },
+  {
     "revision": "6e12378f6ca45da59be8dae7fdd4c975",
     "url": "/me/static/media/aem.6e12378f.png"
   },
   {
+    "revision": "d40bcb844901c342239120895248d3da",
+    "url": "/me/static/media/aep.d40bcb84.png"
+  },
+  {
     "revision": "d875a0cdc3eae86584a7181259140388",
     "url": "/me/static/media/certfication-img.d875a0cd.png"
+  },
+  {
+    "revision": "fb5ad7e487d0f17e4d3bbc6cc2249052",
+    "url": "/me/static/media/ey-badge.fb5ad7e4.png"
   },
   {
     "revision": "7a460ad388436e97ac035744830a13f0",

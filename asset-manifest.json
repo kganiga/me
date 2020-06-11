@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/me/static/css/main.0b328745.chunk.css",
-    "main.js": "/me/static/js/main.f3760ee2.chunk.js",
-    "main.js.map": "/me/static/js/main.f3760ee2.chunk.js.map",
+    "main.js": "/me/static/js/main.ce2984c3.chunk.js",
+    "main.js.map": "/me/static/js/main.ce2984c3.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.66f66336.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.66f66336.js.map",
-    "static/js/2.782de9ae.chunk.js": "/me/static/js/2.782de9ae.chunk.js",
-    "static/js/2.782de9ae.chunk.js.map": "/me/static/js/2.782de9ae.chunk.js.map",
+    "static/js/2.90aa7ad1.chunk.js": "/me/static/js/2.90aa7ad1.chunk.js",
+    "static/js/2.90aa7ad1.chunk.js.map": "/me/static/js/2.90aa7ad1.chunk.js.map",
     "index.html": "/me/index.html",
-    "precache-manifest.5c528066b919f433c9ba9bd32c98cf03.js": "/me/precache-manifest.5c528066b919f433c9ba9bd32c98cf03.js",
+    "precache-manifest.a6cfdf43d1696b2c9866ee974410833d.js": "/me/precache-manifest.a6cfdf43d1696b2c9866ee974410833d.js",
     "service-worker.js": "/me/service-worker.js",
     "static/css/main.0b328745.chunk.css.map": "/me/static/css/main.0b328745.chunk.css.map",
-    "static/js/2.782de9ae.chunk.js.LICENSE.txt": "/me/static/js/2.782de9ae.chunk.js.LICENSE.txt",
+    "static/js/2.90aa7ad1.chunk.js.LICENSE.txt": "/me/static/js/2.90aa7ad1.chunk.js.LICENSE.txt",
     "static/media/EY.png": "/me/static/media/EY.58e6329e.png",
-    "static/media/Khalil_Ganiga_2020.pdf": "/me/static/media/Khalil_Ganiga_2020.d8ea581c.pdf",
+    "static/media/Khalil_Ganiga_2020.pdf": "/me/static/media/Khalil_Ganiga_2020.6bf0a459.pdf",
     "static/media/acm.jpeg": "/me/static/media/acm.252b8342.jpeg",
+    "static/media/aem-sites-developer.png": "/me/static/media/aem-sites-developer.024fb2af.png",
     "static/media/aem.png": "/me/static/media/aem.6e12378f.png",
+    "static/media/aep.png": "/me/static/media/aep.d40bcb84.png",
     "static/media/certfication-img.png": "/me/static/media/certfication-img.d875a0cd.png",
+    "static/media/ey-badge.png": "/me/static/media/ey-badge.fb5ad7e4.png",
     "static/media/memoryGame.jpg": "/me/static/media/memoryGame.7a460ad3.jpg",
     "static/media/numberToStr.jpg": "/me/static/media/numberToStr.d8799f32.jpg",
     "static/media/profile.jpg": "/me/static/media/profile.b033d82a.jpg",
@@ -24,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.66f66336.js",
-    "static/js/2.782de9ae.chunk.js",
+    "static/js/2.90aa7ad1.chunk.js",
     "static/css/main.0b328745.chunk.css",
-    "static/js/main.f3760ee2.chunk.js"
+    "static/js/main.ce2984c3.chunk.js"
   ]
 }
