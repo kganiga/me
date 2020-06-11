@@ -16,7 +16,7 @@ function About() {
                         <div className="col col-d-6 col-t-12 col-m-12 border-line-v aboutMe">
                             <div className="text-box">
                                 <p>Hello! I’m <strong> Khalil Ganiga.</strong>
-                                    <br /> I am dedicated AEM and certified ACM classic developer.</p>
+                                    <br /> I am certified AEM and ACM classic developer.</p>
                                 <br />
                                 <p>To be an Adobe Experience Manager developer is to be a full stack engineer. I am a Java Engineer with a deep understanding of the AEM APIs and the underlying frameworks that compose AEM.</p>
                                 <br />
