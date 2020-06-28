@@ -152,6 +152,17 @@ class Resume extends Component {
                             <section className="card">
                                 <img src={require('../../../../assets/images/aem-sites-developer.png')} alt="aem certification" />
                                 <div className="info">
+                                    <h2><a href="https://www.youracclaim.com/badges/aa5e79a2-e3e2-4a15-8a25-1d50498b4ef4/public_url">Adobe Certified Expert - Adobe Experience Manager Forms Developer</a></h2><h2>
+                                        <p> Issued By : <a href="https://www.youracclaim.com/org/adobe">Adobe</a></p>
+                                        <br />
+                                        <p> Issued Jun 2020</p>
+                                    </h2>
+                                    <button className="btn btn--block card__btn"><a href="https://www.youracclaim.com/badges/aa5e79a2-e3e2-4a15-8a25-1d50498b4ef4/public_url">See credential</a></button>
+                                </div>
+                            </section>
+                            <section className="card">
+                                <img src={require('../../../../assets/images/aem-sites-developer.png')} alt="aem certification" />
+                                <div className="info">
                                     <h2><a href="https://www.youracclaim.com/badges/76285d52-075c-4a4c-ac2d-9c4e5b97ed46/public_url">Adobe Certified Expert - Adobe Experience Manager Sites Developer</a></h2><h2>
                                         <p> Issued By : <a href="https://www.youracclaim.com/org/adobe">Adobe</a></p>
                                         <br />
