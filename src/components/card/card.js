@@ -20,11 +20,11 @@ function Card() {
           <div className="slide lazyloaded" data-bg={bgImage} style={{ backgroundImage: `url(${bgImage})` }} />
           <div className="title">Khalil Ganiga</div>
           <div className="subtitle subtitle-typed">
-            <ReactRotatingText items={['AEM/CQ Senior Developer', 'Web Developer', 'Java Engineer', 'Blogger']} cursor={false} pause={3000} typingInterval={300} />
+            <ReactRotatingText items={['Adobe Experience Manager Sites Architect', 'Adobe Experience Manager Forms Developer', 'Adobe Campaign Classic Developer', 'Web Developer', 'Java Engineer', 'Blogger']} cursor={false} pause={3000} typingInterval={300} />
           </div>
           {/*<span className="typed-cursor">|</span>*/}
           <div className="social">
-          <a target='_blank' rel="noopener noreferrer" href="https://kganiga.blogspot.com/" ><FontAwesomeIcon icon={faChrome} size="1x" /></a>
+            <a target='_blank' rel="noopener noreferrer" href="https://kganiga.blogspot.com/" ><FontAwesomeIcon icon={faChrome} size="1x" /></a>
             <a target='_blank' rel="noopener noreferrer" href="https://facebook.com/khalilbasha.g" ><FontAwesomeIcon icon={faFacebook} size="1x" /></a>
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Im_Khalil"> <FontAwesomeIcon icon={faTwitter} size="1x" /> </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/khalilbasha.g/"> <FontAwesomeIcon icon={faInstagram} size="1x" /> </a>
