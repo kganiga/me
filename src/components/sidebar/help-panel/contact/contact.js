@@ -54,8 +54,7 @@ class ContactMe extends Component {
                                 <div className="info-list">
                                     <ul>
                                         <li> <strong>Address:</strong> Banglore,India</li>
-                                        <li> <strong>Email:</strong> khalil.b.ganiga@outlook.com</li>
-                                        <li> <strong>Phone:</strong> +91-9063221100</li>
+                                        <li> <strong>Email:</strong> khalil.b.ganiga@outlook.com</li>                                        
                                     </ul>
                                 </div>
                             </div>
